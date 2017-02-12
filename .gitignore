@@ -1,2 +1,12 @@
+node_modules/
+build/
 tempFolder/
 css/*.css
+*.ai
+*.log
+*.pdf
+*.psd
+*.sublime*
+.idea
+.DS_Store
+Thumbs.db
