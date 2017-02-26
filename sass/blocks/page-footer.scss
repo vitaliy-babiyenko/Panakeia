@@ -1,0 +1,15 @@
+.page-footer {
+  @include size(2000px, 375px);
+  background: url('../img/image-bg-2.png') no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.page-footer__wrapper {
+  padding-top: 72px;
+  p {
+    line-height: 1.5em;
+    font-family: $primary-font;
+    font-weight: 300;
+  }
+}

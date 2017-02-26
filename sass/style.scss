@@ -1,0 +1,19 @@
+@import "global/normalize.scss";
+
+@import "variables.scss";
+@import "mixins.scss";
+
+@import "global/fonts.scss";
+
+/* common blocks */
+@import "blocks/btn.scss";
+@import "blocks/page-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/page-footer.scss";
+
+/* index.html */
+@import "blocks/news.scss";
+@import "blocks/newsletter.scss";
+@import "blocks/product-details.scss";
+@import "blocks/product-links.scss";
+@import "blocks/products.scss";

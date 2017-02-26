@@ -1,0 +1,52 @@
+.products__wrapper {
+  button {
+    @include size(210px, 54px);
+    border-radius: 27px;
+    outline: none;
+    background-color: #fff;
+    font-family: $primary-font;
+    font-size: 18px;
+  }
+}
+
+.news__item {
+  button {
+    @include size(180px, 54px);
+    border-radius: 27px;
+    outline: none;
+    background-color: #fff;
+    font-family: #secondary-font;
+    font-size: 15px;
+  }
+}
+
+.newsletter {
+  button {
+    @include size(212px, 54px);
+    border-radius: 27px;
+    outline: none;
+    position: relative;
+    left: -72px;
+    background-color: #fff;
+    color: #6c3226;
+    font-family: $primary-font;
+    font-size: 18px;
+  }
+}
+
+.product-details__descr {
+  button {
+    @include size(210px, 54px);
+    border-radius: 27px;
+    outline: none;
+    background-color: #4b4e73;
+    color: #fff;
+    font-family: $primary-font;
+    font-size: 18px;
+  }
+  &:first-child {
+    button {
+      background-color: #dd4b2b;
+    }
+  }
+}

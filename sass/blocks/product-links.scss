@@ -1,0 +1,34 @@
+.product-links {
+  @include size(2000px, 404px);
+  background-color: #d75d0e;
+}
+
+.product-links__wrapper {
+  padding-top: 80px;
+  padding-left: 500px;
+}
+
+.product-links__list {
+  margin-right: 208px;
+  display: inline-block;
+  vertical-align: top;
+  list-style: none;
+  &:nth-child(2) {
+    margin-right: 242px;
+  }
+}
+
+.product-links__item {
+  margin-bottom: 16px;
+  text-align: center;
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-family: $secondary-font;
+    font-size: 18px;
+    transition: color 0.2s linear;
+    &:hover {
+      color: #000;
+    }
+  }
+}

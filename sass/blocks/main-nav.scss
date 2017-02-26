@@ -1,0 +1,27 @@
+.main-nav {
+  position: relative;
+  top: -16px;
+  left: 324px;
+  display: inline-block;
+}
+
+.main-nav__item {
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  border-radius: 25px;
+  transition: background 0.2s linear;
+  &:hover {
+    background-color: #dd4b2b;
+  }
+  a {
+    margin: 0 19px;
+    text-decoration: none;
+    color: #31353e;
+    font-size: 18px;
+    transition: color 0.2s linear;
+    &:hover {
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.newsletter {
+  @include size(2000px, 383px);
+  background: url('../img/image-bg-1.png') no-repeat;
+  text-align: center;
+  color: #fff;
+  h2 {
+    margin-top: 0;
+    margin-bottom: 14px;
+    padding-top: 86px;
+    font-family: $primary-font;
+    font-size: 30px;
+  }
+  p {
+    margin: 0 706px 38px 706px;
+    line-height: 1.5em;
+    font-family: $secondary-font;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  input {
+    padding-left: 36px;
+    @include size(400px, 50px);
+    border-radius: 25px;
+    outline: none;
+    position: relative;
+    left: 72px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    font-family: $primary-font;
+    font-size: 18px;
+  }
+}
