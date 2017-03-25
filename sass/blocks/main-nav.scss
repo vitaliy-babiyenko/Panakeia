@@ -1,14 +1,12 @@
-.main-nav {
-  position: relative;
-  top: -16px;
-  left: 324px;
-  display: inline-block;
+.main-nav__list {
+  padding: 0;
+  display: flex;
+  list-style: none;
 }
 
 .main-nav__item {
   height: 50px;
   line-height: 50px;
-  display: inline-block;
   border-radius: 25px;
   transition: background 0.2s linear;
   &:hover {

@@ -3,28 +3,30 @@
 }
 
 .product-details__list {
-  margin: 70px 0 90px;
-  padding-left: 415px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
 }
 
 .product-details__item {
-  display: inline-block;
+  padding-right: 20px;
   img {
     position: relative;
-    top: -22px;
-    left: 34px;
+    top: -2px;
+    left: 22px;
   }
   &:first-child {
     img {
-      top: 116px;
-      left: -42px;
+      top: 110px;
+      left: -40px;
     }
   }
   &:nth-child(2) {
     .product-details__descr {
       position: relative;
-      top: 40px;
-      left: -2px;
+      top: 56px;
+      left: -18px;
     }
   }
 }

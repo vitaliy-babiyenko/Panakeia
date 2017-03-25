@@ -25,11 +25,15 @@
   margin-bottom: 122px;
 }
 
+.products__list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
 .products__item {
   margin-right: 38px;
   @include size(358px, 396px);
-  display: inline-block;
-  vertical-align: top;
   p {
     margin-top: 10px;
     line-height: 2em;

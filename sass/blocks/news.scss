@@ -12,13 +12,15 @@
 }
 
 .news__list {
-  padding-left: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
 }
 
 .news__item {
   margin-right: 24px;
   @include size(371px, 500px);
-  display: inline-block;
   h3 {
     margin-top: 32px;
     margin-bottom: 0;
